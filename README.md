@@ -1,8 +1,58 @@
-# Detection-and-Characterization-of-Attention-Deficit-Hyperactivity-Disorder-using-Ensemble-Learning
-ADHD dataset was considred for this assignment. This dataset consists of two classes ADHD and Control where ADHD means the person is affected with Attention deficit hyperactivity disorder and control means the person is normal. The labels were also added to these vectors were:- 1 -> ADHD class 0 -> Control class Finally the dataset was tested against various machine learning models.For each model the best results are summarised below :-
+# Detection and Characterization of Attention Deficit Hyperactivity Disorder using Ensemble Learning
 
-1.) Bagging Meta Estimator Algorithm 95%.
+### Project Overview:
+This project is a part of my M.Tech thesis, conducted from April 2022 to June 2022. The aim is to develop a machine learning model for the detection and characterization of Attention Deficit Hyperactivity Disorder (ADHD) using ensemble learning techniques.
 
-2.) Gradient Boosting Algorithm 96%
+### Project Name:
+Detection and Characterization of Attention Deficit Hyperactivity Disorder using Ensemble Learning
 
-3.) XGBoost Algorithm 93%
+### Description:
+ADHD is a common neurodevelopmental disorder that affects individuals' ability to focus and control impulses. This project utilizes the ADHD dataset, which consists of two classes: ADHD and Control. The ADHD class indicates individuals affected by the disorder, while the Control class represents normal individuals. Labels were assigned to these classes as follows:
+- 1 -> ADHD class
+- 0 -> Control class
+
+Various ensemble learning models were applied to this dataset to achieve the best possible classification results. The performance of each model was evaluated, and the best results are summarized below.
+
+### Project Phases:
+1. **Data Collection**: Using the ADHD dataset with labeled classes.
+2. **Data Preprocessing**: Cleaning and preparing the data for model training.
+3. **Feature Engineering**: Extracting relevant features from the data.
+4. **Model Training**: Training various ensemble learning models on the dataset.
+5. **Model Evaluation**: Assessing the performance of each model using appropriate metrics.
+
+### Selected Models and Performance:
+1. **Bagging Meta Estimator Algorithm**: Achieved an accuracy of 95%.
+2. **Gradient Boosting Algorithm**: Achieved an accuracy of 96%.
+3. **XGBoost Algorithm**: Achieved an accuracy of 93%.
+
+### Technology 💻
+Machine Learning, Ensemble Learning
+
+### Domain 🏥
+Healthcare, Neurodevelopmental Disorders
+
+### Project Difficulty Level 🥇
+Advanced
+
+### Programming Language 🐍
+Python
+
+### Python Libraries
+- Scikit-learn
+- XGBoost
+- CatBoost
+- Numpy
+- Pandas
+
+### Tools 🛠️
+- Jupyter Notebook
+- Python
+
+### Dataset 📀
+ADHD dataset
+
+### Contributors:
+Sahdev Saini
+
+### License:
+This project is licensed under the MIT License.
